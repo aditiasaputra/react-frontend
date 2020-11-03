@@ -1,0 +1,7 @@
+Konsep "Services" intinya memisahkan logic sehingga bisa digunakan kembali tanpa menulis ulang logic code.
+
+Contoh yang bisa dilihat:
+- Laravel
+- Angular
+
+Cari di internet dengan keyword "tutorial design pattern services <nama_framework>".

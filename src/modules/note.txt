@@ -1,0 +1,6 @@
+Konsep "Modules" intinya kumpulan-kumpulan fungsi (biasanya, atau mungkin class) dan bisa digunakan tanpa menulis ulang logic code. Jika diterapkannya konsep modules dengan kumpulan-kumpulan fungsi, mungkin saja secara tak sadar telah menggunakan functional programming paradigm.
+
+Referensi bisa dilihat:
+- https://www.sitepoint.com/modular-design-patterns-in-javascript/
+
+Cari di internet dengan keyword "tutorial design pattern modules <nama_framework>".

@@ -1,0 +1,17 @@
+.link {
+    text-align: center;
+    font-size: 16px;
+    color: #ababab;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    .link {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    }
+}
