@@ -1,6 +1,6 @@
 import React from 'react';
 import { LoginBg } from '../../assets';
-import { Button, Gap, Input, Link, Checkbox, Alert, LinkBadge, Card } from '../../components';
+import { Button, Gap, Input, Link, Checkbox } from '../../components';
 
 const Login = () => {
     return(
@@ -19,10 +19,6 @@ const Login = () => {
                 <Button title="Login" />
                 <Gap height={100} />
                 <Link path="/register" title="Belum punya akun? Daftar sekarang!" />
-                <Alert title="Success!" message="Data has been inserted!" color="green" />
-                <LinkBadge color="purple" textColor="text-white" link={true} path="/tes" />
-                <LinkBadge color="red" textColor="text-white" link={false} />
-                <Card tag={['photography', 'travel', 'winter']} />
             </div>
         </div>
     )

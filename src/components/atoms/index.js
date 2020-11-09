@@ -6,5 +6,6 @@ import Checkbox from './Checkbox';
 import Alert from './Alert';
 import LinkBadge from './LinkBadge';
 import Card from './Card';
+import Jumbotron from './Jumbotron';
 
-export { Input, Button, Gap, Link, Checkbox, Alert, LinkBadge, Card };
+export { Input, Button, Gap, Link, Checkbox, Alert, LinkBadge, Card, Jumbotron };

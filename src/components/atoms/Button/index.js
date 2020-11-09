@@ -1,12 +1,12 @@
-import React from "react";
+  import React from "react";
 import "./button.scss";
 
-const Button = ({ title, ...rest }) => {
+const Button = ({ title, color, type, ...rest }) => {
   return (
     <div>
       <button
-        type="button"
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4"
+        type={type}
+        className={`bg-${color}-500 hover:bg-${color}-700 text-white font-bold py-2 px-4`}
         {...rest}
       >
         {title}

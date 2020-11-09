@@ -1,12 +1,23 @@
 import React, { useEffect } from "react";
 import "./card.scss";
 
-const Card = ({ title, content, tag, ...rest }) => {
-  const tagData = tag.map(([k, v]) => {
+const Card = ({ title, content, tags, ...rest }) => {
+  // console.log(tag.tag1)
+  // const tagData = tag.map(([k, v]) => {
+  //   return (
+  //     <div className="px-6 pt-4 pb-2">
+  //       <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+  //         #{k}
+  //       </span>
+  //     </div>
+  //   );
+  // });
+  const tagData = Object.entries(tags).map(([k, v]) => {
+    console.log(v.toString())
     return (
-      <div className="px-6 pt-4 pb-2">
+      <div className="px-6 pt-4 pb-2" key={k}>
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #{k}
+          #{v.toString()}
         </span>
       </div>
     );
